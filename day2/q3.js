@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let x=5;
 function first(){
     console.log(x); //line1
@@ -12,3 +13,13 @@ function first(){
 }
 first();
 console.log(y);//line4
+=======
+var person = {
+  name: 'Abhishek',
+  print: function () {
+    console.log('Name is: ', this.name); // this.name means person.name in this context
+  }
+};
+var p = person.print;
+p(); // won't 
+>>>>>>> c7b88e7 (day3 assignment uploaded)
